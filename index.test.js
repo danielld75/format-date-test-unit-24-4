@@ -4,8 +4,8 @@ const formatDate = require('./index');
 describe('formatDate', () => {
   describe('seconds', () => {
     it('should return seconds', () => {
-      const actual = formatDate(23);
-      const expected = '23s';
+      const actual = formatDate(3);
+      const expected = '3s';
       assert.equal(actual, expected);
     });
 
